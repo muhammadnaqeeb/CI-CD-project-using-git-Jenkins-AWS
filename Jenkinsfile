@@ -20,7 +20,6 @@ pipeline {
                                 transfers: [
                                     sshTransfer(
                                         sourceFiles: '**/*.html',
-                                        sourceFiles: '**/*/css/*.css',
                                         remoteDirectory: remoteDirectory,
                                         removePrefix: '',
                                         execCommand: ''
